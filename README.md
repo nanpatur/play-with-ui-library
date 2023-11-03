@@ -1,46 +1,81 @@
-# Getting Started with Create React App
+Play-With-UI-Library
+====================
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Version: 0.1.0
 
-## Available Scripts
+Author: Nandira Paturohman\
+Email: <nandirasp@gmail.com>
 
-In the project directory, you can run:
+Description
+-----------
 
-### `npm start`
+`Play-With-UI-Library` is a UI kit for building beautiful and responsive user interfaces. It provides a collection of components and tools to enhance your web development projects.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Installation
+------------
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+To install this UI kit, you can use npm or yarn:
 
-### `npm test`
+```
+npm install play-with-ui-library
+# or
+yarn add play-with-ui-library
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Usage
+-----
 
-### `npm run build`
+To use the UI kit in your project, simply import the components you need and start building your user interface:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+import { Button, Input, Card } from 'play-with-ui-library';
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+// Use the components in your React application
+function App() {
+  return (
+    <div>
+      <Card>
+        <Input placeholder="Enter text" />
+        <Button>Click me</Button>
+      </Card>
+    </div>
+  );
+}
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+export default App;
+```
 
-### `npm run eject`
+Components
+----------
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+The UI kit includes the following components:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+-   `Button`: A customizable button component.
+-   `Input`: An input field component.
+-   `Card`: A card component for displaying content.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Documentation
+-------------
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+For detailed documentation and usage examples, please visit [our documentation website](https://example.com/documentation).
 
-## Learn More
+License
+-------
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This UI kit is licensed under the MIT License. See the [LICENSE](https://chat.openai.com/c/LICENSE) file for details.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Contributing
+------------
+
+We welcome contributions from the community. If you'd like to contribute to this project, please follow our [contribution guidelines](https://chat.openai.com/c/CONTRIBUTING.md).
+
+Changelog
+---------
+
+For information about recent changes and updates, check the [CHANGELOG](https://chat.openai.com/c/CHANGELOG.md) file.
+
+Credits
+-------
+
+-   Nandira Paturohman - Project author
+-   The open-source community for various dependencies used
