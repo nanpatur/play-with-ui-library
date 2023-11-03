@@ -1,7 +1,7 @@
 Play-With-UI-Library
 ====================
 
-Version: 0.1.0
+Version: 0.1.1
 
 Author: Nandira Paturohman\
 Email: <nandirasp@gmail.com>
